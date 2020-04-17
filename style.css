@@ -1,0 +1,45 @@
+*
+{
+	color: #fff;
+	font-size: 35px;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+}
+.header-1 h1
+{
+	text-align: center;
+	color: black;
+}
+.container-1
+{
+	background-color: #004080;
+	height: 100%;
+	width: 50%;
+	margin-left: 25%;
+}
+.container-1 ul
+{
+	display: inline-block;
+}
+.container-1 li
+{
+	list-style: none;
+	font-size: 15px;
+
+}
+label
+{
+	font-size: 25px;
+}
+
+
+@media screen and (max-width: 600px) {
+  	* {
+    font-size: 25px;
+    text-align: center;
+  }
+  .container-1
+  {
+  	padding-right: 10%;
+  }
+}
