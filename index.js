@@ -21,5 +21,5 @@ function getCovidStats() {
 	.catch(function() {
 		console.log("error");
 	})
-	setTimeout(getCovidStats, 1000) 
+	setTimeout(getCovidStats, 432000) 
 }
